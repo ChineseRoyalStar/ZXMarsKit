@@ -1,0 +1,6 @@
+framework module Pods_ZXMarsKit_Example {
+  umbrella header "Pods-ZXMarsKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

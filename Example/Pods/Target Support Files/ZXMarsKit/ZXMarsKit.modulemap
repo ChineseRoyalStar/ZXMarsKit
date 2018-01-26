@@ -1,0 +1,6 @@
+framework module ZXMarsKit {
+  umbrella header "ZXMarsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
