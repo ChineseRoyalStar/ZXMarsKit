@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZXMarsKit'
-  s.version          = 'v1.0.0'
-  s.summary          = 'Leon's UIKit'
+  s.version          = '1.0.1'
+  s.summary          = 'ZKMarsKit by LeGuo'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Leon's UIKit for my beloved Z&X
+UIKit for my beloved Z and X by LeGuo
                        DESC
 
   s.homepage         = 'https://github.com/Chineseroyalstar/ZXMarsKit'
@@ -28,6 +28,8 @@ TODO: Leon's UIKit for my beloved Z&X
   s.source           = { :git => 'https://github.com/Chineseroyalstar/ZXMarsKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.platform = :ios, '8.0'
+  s.requires_arc = true
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ZXMarsKit/Classes/**/*'
