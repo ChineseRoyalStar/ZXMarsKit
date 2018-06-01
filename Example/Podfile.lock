@@ -10,7 +10,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - Specta (1.0.7)
-  - ZXMarsKit (1.0.1)
+  - ZXMarsKit (1.0.2)
 
 DEPENDENCIES:
   - Expecta
@@ -28,7 +28,7 @@ SPEC CHECKSUMS:
   Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  ZXMarsKit: cf045596c2dbc0baefed12e52e9dbe0c106e3ed1
+  ZXMarsKit: bac41b856fd35719ffc5452cf6a4d23bd32340e2
 
 PODFILE CHECKSUM: f3808d4f8279cda966d9e38935db4250bb009334
 
