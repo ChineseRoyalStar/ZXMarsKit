@@ -7,6 +7,7 @@
 //
 
 #import "ZXViewController.h"
+#import "ZXAccessoryButton.h"
 
 @interface ZXViewController ()
 
@@ -18,6 +19,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+   
+    ZXAccessoryButton *button = [[ZXAccessoryButton alloc] initWithFrame:CGRectMake(0, 0, 100, 50)];
+    button.backgroundColor = [UIColor redColor];
+    button.leftImageView.backgroundColor = [UIColor greenColor];
+    [button.rightButton setTitle:@"123" forState:UIControlStateNormal];
+    [button.rightButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [self.view addSubview:button];
+    
+    button.rightButton.backgroundColor = [UIColor blackColor];
 }
 
 - (void)didReceiveMemoryWarning

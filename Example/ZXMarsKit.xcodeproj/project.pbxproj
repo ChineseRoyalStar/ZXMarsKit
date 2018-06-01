@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34D97A7820C0FB6200F8220F /* UILabel+AttachementText.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D97A6D20C0FB6200F8220F /* UILabel+AttachementText.m */; };
+		34D97A7920C0FB6200F8220F /* UIView+FrameUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D97A7020C0FB6200F8220F /* UIView+FrameUtility.m */; };
+		34D97A7B20C0FB6200F8220F /* ZXAccessoryTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D97A7620C0FB6200F8220F /* ZXAccessoryTextField.m */; };
+		34D97A7C20C0FB6200F8220F /* ZXAccessoryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D97A7720C0FB6200F8220F /* ZXAccessoryButton.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +42,15 @@
 
 /* Begin PBXFileReference section */
 		1F839E10B93A54B4530E8A9A /* Pods_ZXMarsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXMarsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D97A6D20C0FB6200F8220F /* UILabel+AttachementText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AttachementText.m"; sourceTree = "<group>"; };
+		34D97A6E20C0FB6200F8220F /* UIView+FrameUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameUtility.h"; sourceTree = "<group>"; };
+		34D97A6F20C0FB6200F8220F /* UILabel+AttachementText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AttachementText.h"; sourceTree = "<group>"; };
+		34D97A7020C0FB6200F8220F /* UIView+FrameUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameUtility.m"; sourceTree = "<group>"; };
+		34D97A7120C0FB6200F8220F /* ZXMarsKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMarsKit.h; sourceTree = "<group>"; };
+		34D97A7420C0FB6200F8220F /* ZXAccessoryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXAccessoryButton.h; sourceTree = "<group>"; };
+		34D97A7520C0FB6200F8220F /* ZXAccessoryTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXAccessoryTextField.h; sourceTree = "<group>"; };
+		34D97A7620C0FB6200F8220F /* ZXAccessoryTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXAccessoryTextField.m; sourceTree = "<group>"; };
+		34D97A7720C0FB6200F8220F /* ZXAccessoryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXAccessoryButton.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZXMarsKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXMarsKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,16 +70,16 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6E7E12584CA422D95114DCD9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6E7E12584CA422D95114DCD9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		74524C9595CB0AA7F4D0F0B4 /* ZXMarsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZXMarsKit.podspec; path = ../ZXMarsKit.podspec; sourceTree = "<group>"; };
+		74524C9595CB0AA7F4D0F0B4 /* ZXMarsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZXMarsKit.podspec; path = ../ZXMarsKit.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BB1D81263191A8ADB8BDB6A /* Pods-ZXMarsKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXMarsKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZXMarsKit_Tests/Pods-ZXMarsKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B19C6BB0D267479B57C8A5CE /* Pods-ZXMarsKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXMarsKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZXMarsKit_Tests/Pods-ZXMarsKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E237556BED88DC958BF6C275 /* Pods-ZXMarsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXMarsKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZXMarsKit_Example/Pods-ZXMarsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E574766756EF794DA4E1950A /* Pods_ZXMarsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXMarsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF196871976E3875DFFCC155 /* Pods-ZXMarsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXMarsKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZXMarsKit_Example/Pods-ZXMarsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F681805058903893AEAF9199 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F681805058903893AEAF9199 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +108,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34D97A6B20C0FB6200F8220F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				34D97A7320C0FB6200F8220F /* Kit */,
+				34D97A6C20C0FB6200F8220F /* Category */,
+				34D97A7120C0FB6200F8220F /* ZXMarsKit.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		34D97A6C20C0FB6200F8220F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				34D97A6D20C0FB6200F8220F /* UILabel+AttachementText.m */,
+				34D97A6E20C0FB6200F8220F /* UIView+FrameUtility.h */,
+				34D97A6F20C0FB6200F8220F /* UILabel+AttachementText.h */,
+				34D97A7020C0FB6200F8220F /* UIView+FrameUtility.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		34D97A7320C0FB6200F8220F /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				34D97A7420C0FB6200F8220F /* ZXAccessoryButton.h */,
+				34D97A7720C0FB6200F8220F /* ZXAccessoryButton.m */,
+				34D97A7520C0FB6200F8220F /* ZXAccessoryTextField.h */,
+				34D97A7620C0FB6200F8220F /* ZXAccessoryTextField.m */,
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +177,7 @@
 		6003F593195388D20070C39A /* Example for ZXMarsKit */ = {
 			isa = PBXGroup;
 			children = (
+				34D97A6B20C0FB6200F8220F /* Classes */,
 				6003F59C195388D20070C39A /* ZXAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZXAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -412,9 +458,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D97A7820C0FB6200F8220F /* UILabel+AttachementText.m in Sources */,
+				34D97A7920C0FB6200F8220F /* UIView+FrameUtility.m in Sources */,
 				6003F59E195388D20070C39A /* ZXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZXViewController.m in Sources */,
+				34D97A7B20C0FB6200F8220F /* ZXAccessoryTextField.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				34D97A7C20C0FB6200F8220F /* ZXAccessoryButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
