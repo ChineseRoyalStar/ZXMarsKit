@@ -11,4 +11,7 @@
 #import "UIView+FrameUtility.h"
 #import "UILabel+AttachementText.h"
 
+#import "ZXAccessoryButton"
+#import "ZXAccessoryTextField"
+
 #endif /* ZXMarsKit_h */
