@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZXMarsKit'
-  s.version          = '1.1.3'
+  s.version          = '1.1.4'
   s.summary          = 'ZKMarsKit by LeGuo'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ UIKit for my beloved Z and X by LeGuo
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZXMarsKit/Classes/**/*'
+  s.source_files = 'ZXMarsKit/Classes/*'
   
   # s.resource_bundles = {
   #   'ZXMarsKit' => ['ZXMarsKit/Assets/*.png']
