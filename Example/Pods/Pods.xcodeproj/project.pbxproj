@@ -37,8 +37,13 @@
 		31328536635BDC034D4E43B11CA846BD /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = D417CB778FB662CFE79DB7FD9E6554A8 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		343232DA20C12E5F00174762 /* ZXAccessoryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 343232D620C12E5E00174762 /* ZXAccessoryButton.m */; };
 		343232DB20C12E5F00174762 /* ZXAccessoryTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 343232D720C12E5F00174762 /* ZXAccessoryTextField.m */; };
-		343232DC20C12E5F00174762 /* ZXAccessoryButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 343232D820C12E5F00174762 /* ZXAccessoryButton.h */; };
-		343232DD20C12E5F00174762 /* ZXAccessoryTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 343232D920C12E5F00174762 /* ZXAccessoryTextField.h */; };
+		343232DE20C130E700174762 /* ZXAccessoryButton.h in Sources */ = {isa = PBXBuildFile; fileRef = 343232D820C12E5F00174762 /* ZXAccessoryButton.h */; };
+		343232DF20C130E700174762 /* ZXAccessoryTextField.h in Sources */ = {isa = PBXBuildFile; fileRef = 343232D920C12E5F00174762 /* ZXAccessoryTextField.h */; };
+		343232E020C1312F00174762 /* ZXMarsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2244B383201EFF070079BB9E /* ZXMarsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		343232E120C1312F00174762 /* UIView+FrameUtility.h in Sources */ = {isa = PBXBuildFile; fileRef = 2244B37F201EFEC30079BB9E /* UIView+FrameUtility.h */; };
+		343232E320C1312F00174762 /* UILabel+AttachementText.h in Sources */ = {isa = PBXBuildFile; fileRef = 222D766B201B0D1B005554AB /* UILabel+AttachementText.h */; };
+		343232E420C1312F00174762 /* UILabel+AttachementText.m in Sources */ = {isa = PBXBuildFile; fileRef = 222D766C201B0D1B005554AB /* UILabel+AttachementText.m */; };
+		343232E520C131D200174762 /* ZXMarsKit.h in Sources */ = {isa = PBXBuildFile; fileRef = 2244B383201EFF070079BB9E /* ZXMarsKit.h */; };
 		361B58CE2A28E03CA83A73617ED739F2 /* EXPMatchers+raise.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA78AD493C15517AB45ED930E51A1E0 /* EXPMatchers+raise.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3849993FDFE7642E4BEF1096B047FB86 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 42785F13EF84B082ACE2FE7CAE842881 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		39461DAB3DE2637F4AE2BA94F19DCF2B /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A617F1464A48980127A218AB18B898 /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -969,9 +974,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				343232DD20C12E5F00174762 /* ZXAccessoryTextField.h in Headers */,
+				343232E020C1312F00174762 /* ZXMarsKit.h in Headers */,
 				FD2F65E424E82C612261363503A8B153 /* ZXMarsKit-umbrella.h in Headers */,
-				343232DC20C12E5F00174762 /* ZXAccessoryButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1210,6 +1214,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343232E520C131D200174762 /* ZXMarsKit.h in Sources */,
+				343232E120C1312F00174762 /* UIView+FrameUtility.h in Sources */,
+				343232E320C1312F00174762 /* UILabel+AttachementText.h in Sources */,
+				343232E420C1312F00174762 /* UILabel+AttachementText.m in Sources */,
+				343232DE20C130E700174762 /* ZXAccessoryButton.h in Sources */,
+				343232DF20C130E700174762 /* ZXAccessoryTextField.h in Sources */,
 				343232DA20C12E5F00174762 /* ZXAccessoryButton.m in Sources */,
 				343232DB20C12E5F00174762 /* ZXAccessoryTextField.m in Sources */,
 				0B81A284D8D48A320B362661BE642D7E /* ZXMarsKit-dummy.m in Sources */,
