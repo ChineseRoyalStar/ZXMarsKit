@@ -24,10 +24,6 @@
 		20A2A483CDC911D6DB2EAD12444D1406 /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC5EEA6B4746F1531DD69BC488E69F4 /* SPTTestSuite.m */; };
 		214F8D721940BD9AA4BAB0E5AE2E8A1C /* EXPBlockDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1795ED3D682D8EDC5CEC1EA831BEECEA /* EXPBlockDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21B3DAADDCABBFDD03478CCBF5DE49D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA3435632E518FBB1B6085FE5AF4B8E /* Foundation.framework */; };
-		222D766D201B0D1B005554AB /* UILabel+AttachementText.h in Headers */ = {isa = PBXBuildFile; fileRef = 222D766B201B0D1B005554AB /* UILabel+AttachementText.h */; };
-		222D766E201B0D1B005554AB /* UILabel+AttachementText.m in Sources */ = {isa = PBXBuildFile; fileRef = 222D766C201B0D1B005554AB /* UILabel+AttachementText.m */; };
-		2244B381201EFEC30079BB9E /* UIView+FrameUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2244B37F201EFEC30079BB9E /* UIView+FrameUtility.h */; };
-		2244B382201EFEC30079BB9E /* UIView+FrameUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244B380201EFEC30079BB9E /* UIView+FrameUtility.m */; };
 		255345DF9F3F6DDC70B0ABAF2775324B /* SPTCompiledExample.m in Sources */ = {isa = PBXBuildFile; fileRef = C468A58BBD0142C1B15D5D1E99CD14D2 /* SPTCompiledExample.m */; };
 		26BBC63406C6863BE6DD27C64A70CB42 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 39686FFA13DAF68BB30B71BF78A974C3 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		285C6F6BE59E632CB219CD98B4EDC1AA /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2072991CBA5987025178150BD49F6 /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -40,10 +36,13 @@
 		343232DE20C130E700174762 /* ZXAccessoryButton.h in Sources */ = {isa = PBXBuildFile; fileRef = 343232D820C12E5F00174762 /* ZXAccessoryButton.h */; };
 		343232DF20C130E700174762 /* ZXAccessoryTextField.h in Sources */ = {isa = PBXBuildFile; fileRef = 343232D920C12E5F00174762 /* ZXAccessoryTextField.h */; };
 		343232E020C1312F00174762 /* ZXMarsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2244B383201EFF070079BB9E /* ZXMarsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		343232E120C1312F00174762 /* UIView+FrameUtility.h in Sources */ = {isa = PBXBuildFile; fileRef = 2244B37F201EFEC30079BB9E /* UIView+FrameUtility.h */; };
-		343232E320C1312F00174762 /* UILabel+AttachementText.h in Sources */ = {isa = PBXBuildFile; fileRef = 222D766B201B0D1B005554AB /* UILabel+AttachementText.h */; };
-		343232E420C1312F00174762 /* UILabel+AttachementText.m in Sources */ = {isa = PBXBuildFile; fileRef = 222D766C201B0D1B005554AB /* UILabel+AttachementText.m */; };
 		343232E520C131D200174762 /* ZXMarsKit.h in Sources */ = {isa = PBXBuildFile; fileRef = 2244B383201EFF070079BB9E /* ZXMarsKit.h */; };
+		343FCF5720C52FF700ABC9AF /* UILabel+AttachementText.m in Sources */ = {isa = PBXBuildFile; fileRef = 343FCF5120C52FF700ABC9AF /* UILabel+AttachementText.m */; };
+		343FCF5820C52FF700ABC9AF /* UIButton+EnlargeTouchArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 343FCF5220C52FF700ABC9AF /* UIButton+EnlargeTouchArea.h */; };
+		343FCF5920C52FF700ABC9AF /* UIView+FrameUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 343FCF5320C52FF700ABC9AF /* UIView+FrameUtility.h */; };
+		343FCF5A20C52FF700ABC9AF /* UIButton+EnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 343FCF5420C52FF700ABC9AF /* UIButton+EnlargeTouchArea.m */; };
+		343FCF5B20C52FF700ABC9AF /* UILabel+AttachementText.h in Headers */ = {isa = PBXBuildFile; fileRef = 343FCF5520C52FF700ABC9AF /* UILabel+AttachementText.h */; };
+		343FCF5C20C52FF700ABC9AF /* UIView+FrameUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 343FCF5620C52FF700ABC9AF /* UIView+FrameUtility.m */; };
 		361B58CE2A28E03CA83A73617ED739F2 /* EXPMatchers+raise.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA78AD493C15517AB45ED930E51A1E0 /* EXPMatchers+raise.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3849993FDFE7642E4BEF1096B047FB86 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 42785F13EF84B082ACE2FE7CAE842881 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		39461DAB3DE2637F4AE2BA94F19DCF2B /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A617F1464A48980127A218AB18B898 /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -250,10 +249,6 @@
 		2023C0D2D97F5ACE15C5BFE79E448499 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		222277628576E6CB279473688BA88F01 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
 		222B35F590250B97F30D1C37C402B693 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
-		222D766B201B0D1B005554AB /* UILabel+AttachementText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AttachementText.h"; sourceTree = "<group>"; };
-		222D766C201B0D1B005554AB /* UILabel+AttachementText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AttachementText.m"; sourceTree = "<group>"; };
-		2244B37F201EFEC30079BB9E /* UIView+FrameUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameUtility.h"; sourceTree = "<group>"; };
-		2244B380201EFEC30079BB9E /* UIView+FrameUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameUtility.m"; sourceTree = "<group>"; };
 		2244B383201EFF070079BB9E /* ZXMarsKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXMarsKit.h; sourceTree = "<group>"; };
 		22C6E607E674AB20554080B3E2A4B463 /* EXPMatchers+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+FBSnapshotTest.m"; sourceTree = "<group>"; };
 		237C1D40E94ECB9726EC1CC5E6691588 /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
@@ -270,6 +265,12 @@
 		343232D720C12E5F00174762 /* ZXAccessoryTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXAccessoryTextField.m; sourceTree = "<group>"; };
 		343232D820C12E5F00174762 /* ZXAccessoryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXAccessoryButton.h; sourceTree = "<group>"; };
 		343232D920C12E5F00174762 /* ZXAccessoryTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXAccessoryTextField.h; sourceTree = "<group>"; };
+		343FCF5120C52FF700ABC9AF /* UILabel+AttachementText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AttachementText.m"; sourceTree = "<group>"; };
+		343FCF5220C52FF700ABC9AF /* UIButton+EnlargeTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeTouchArea.h"; sourceTree = "<group>"; };
+		343FCF5320C52FF700ABC9AF /* UIView+FrameUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameUtility.h"; sourceTree = "<group>"; };
+		343FCF5420C52FF700ABC9AF /* UIButton+EnlargeTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeTouchArea.m"; sourceTree = "<group>"; };
+		343FCF5520C52FF700ABC9AF /* UILabel+AttachementText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AttachementText.h"; sourceTree = "<group>"; };
+		343FCF5620C52FF700ABC9AF /* UIView+FrameUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameUtility.m"; sourceTree = "<group>"; };
 		370C8488ABDC015700FCF97F059BFD42 /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
 		389932E25AB5180C7024CD173A4B6D4B /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		39686FFA13DAF68BB30B71BF78A974C3 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
@@ -566,6 +567,30 @@
 			path = "../Target Support Files/Expecta";
 			sourceTree = "<group>";
 		};
+		343FCF4E20C52FAC00ABC9AF /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				343232D820C12E5F00174762 /* ZXAccessoryButton.h */,
+				343232D620C12E5E00174762 /* ZXAccessoryButton.m */,
+				343232D920C12E5F00174762 /* ZXAccessoryTextField.h */,
+				343232D720C12E5F00174762 /* ZXAccessoryTextField.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		343FCF5020C52FF700ABC9AF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				343FCF5220C52FF700ABC9AF /* UIButton+EnlargeTouchArea.h */,
+				343FCF5420C52FF700ABC9AF /* UIButton+EnlargeTouchArea.m */,
+				343FCF5520C52FF700ABC9AF /* UILabel+AttachementText.h */,
+				343FCF5120C52FF700ABC9AF /* UILabel+AttachementText.m */,
+				343FCF5320C52FF700ABC9AF /* UIView+FrameUtility.h */,
+				343FCF5620C52FF700ABC9AF /* UIView+FrameUtility.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		368D7104DAC84A31A13D5B99FF8F9AE8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -755,15 +780,9 @@
 		BDDF2B88D2528D7CBCBFA422E62FFC20 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				343232D820C12E5F00174762 /* ZXAccessoryButton.h */,
-				343232D620C12E5E00174762 /* ZXAccessoryButton.m */,
-				343232D920C12E5F00174762 /* ZXAccessoryTextField.h */,
-				343232D720C12E5F00174762 /* ZXAccessoryTextField.m */,
 				2244B383201EFF070079BB9E /* ZXMarsKit.h */,
-				2244B37F201EFEC30079BB9E /* UIView+FrameUtility.h */,
-				2244B380201EFEC30079BB9E /* UIView+FrameUtility.m */,
-				222D766B201B0D1B005554AB /* UILabel+AttachementText.h */,
-				222D766C201B0D1B005554AB /* UILabel+AttachementText.m */,
+				343FCF4E20C52FAC00ABC9AF /* Custom */,
+				343FCF5020C52FF700ABC9AF /* Category */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -916,7 +935,6 @@
 				0E86BBA3A65849769B47995A5E91C881 /* Expecta-umbrella.h in Headers */,
 				A0B36C4898CD3A75ED692AE1B945EFED /* Expecta.h in Headers */,
 				8B0A34DADDB56E70CF4A5177E65AA081 /* ExpectaObject.h in Headers */,
-				2244B381201EFEC30079BB9E /* UIView+FrameUtility.h in Headers */,
 				ABBDD0372C687211E68EDCE0166F3632 /* ExpectaSupport.h in Headers */,
 				FD39ACDEA6F0B6D6DBB730547CE18BA6 /* EXPExpect.h in Headers */,
 				4CA4F8F64565882DCFA174872749C0EF /* EXPFloatTuple.h in Headers */,
@@ -943,7 +961,6 @@
 				425C4DFD1FAB011D70F825631144BC4C /* EXPMatchers+equal.h in Headers */,
 				8F990515E868D90C15D2148DD1A22403 /* EXPMatchers+haveCountOf.h in Headers */,
 				597E5A323FD0306B81C3F7E9C8E5580D /* EXPMatchers+match.h in Headers */,
-				222D766D201B0D1B005554AB /* UILabel+AttachementText.h in Headers */,
 				A2D3CFFEBD3AEA2164A535192492F3B8 /* EXPMatchers+postNotification.h in Headers */,
 				A8446D8224F103BE7F4A5237A60F0EFB /* EXPMatchers+raise.h in Headers */,
 				B3F189747A7A3CEDA9200CB2749AC7D8 /* EXPMatchers+raiseWithReason.h in Headers */,
@@ -976,6 +993,9 @@
 			files = (
 				343232E020C1312F00174762 /* ZXMarsKit.h in Headers */,
 				FD2F65E424E82C612261363503A8B153 /* ZXMarsKit-umbrella.h in Headers */,
+				343FCF5B20C52FF700ABC9AF /* UILabel+AttachementText.h in Headers */,
+				343FCF5920C52FF700ABC9AF /* UIView+FrameUtility.h in Headers */,
+				343FCF5820C52FF700ABC9AF /* UIButton+EnlargeTouchArea.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1214,14 +1234,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343FCF5C20C52FF700ABC9AF /* UIView+FrameUtility.m in Sources */,
 				343232E520C131D200174762 /* ZXMarsKit.h in Sources */,
-				343232E120C1312F00174762 /* UIView+FrameUtility.h in Sources */,
-				343232E320C1312F00174762 /* UILabel+AttachementText.h in Sources */,
-				343232E420C1312F00174762 /* UILabel+AttachementText.m in Sources */,
 				343232DE20C130E700174762 /* ZXAccessoryButton.h in Sources */,
 				343232DF20C130E700174762 /* ZXAccessoryTextField.h in Sources */,
 				343232DA20C12E5F00174762 /* ZXAccessoryButton.m in Sources */,
 				343232DB20C12E5F00174762 /* ZXAccessoryTextField.m in Sources */,
+				343FCF5A20C52FF700ABC9AF /* UIButton+EnlargeTouchArea.m in Sources */,
+				343FCF5720C52FF700ABC9AF /* UILabel+AttachementText.m in Sources */,
 				0B81A284D8D48A320B362661BE642D7E /* ZXMarsKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1230,7 +1250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222D766E201B0D1B005554AB /* UILabel+AttachementText.m in Sources */,
 				9E4463D68D13C127762B1ACB8249B64C /* EXPBlockDefinedMatcher.m in Sources */,
 				01F278A54C85C2C865DDAD4090C559B6 /* EXPDoubleTuple.m in Sources */,
 				D1768C977F0CD5B420D1A1D2375CDBD4 /* Expecta-dummy.m in Sources */,
@@ -1240,7 +1259,6 @@
 				5E4F55D319FF771D658CCE335E7CB498 /* EXPFloatTuple.m in Sources */,
 				150503B99F77D3D8897EFFC68C09A351 /* EXPMatcherHelpers.m in Sources */,
 				9A0ADF06F5B6BC3A70EDE1285BAF9346 /* EXPMatchers+beCloseTo.m in Sources */,
-				2244B382201EFEC30079BB9E /* UIView+FrameUtility.m in Sources */,
 				8220368E5F7EA70947BAD2B6F216C61B /* EXPMatchers+beFalsy.m in Sources */,
 				A037AD9C808583B3EC9F49B3EEDA588A /* EXPMatchers+beginWith.m in Sources */,
 				FF394D6FEA84206182301180AE4CB957 /* EXPMatchers+beGreaterThan.m in Sources */,
