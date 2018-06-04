@@ -31,20 +31,23 @@
 		2CC183AE5C5A4EA8EE0E14768F464BBB /* Expecta+Snapshots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E553ECAD689166E16E72CBB083D61A /* Expecta+Snapshots-dummy.m */; };
 		2E81617C064F3E68A7A2A9E6A370E073 /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC4D7D2259B4B710DED71BD7949BACA /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31328536635BDC034D4E43B11CA846BD /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = D417CB778FB662CFE79DB7FD9E6554A8 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		343232E020C1312F00174762 /* ZXMarsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2244B383201EFF070079BB9E /* ZXMarsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		343FCF5820C52FF700ABC9AF /* UIButton+EnlargeTouchArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 343FCF5220C52FF700ABC9AF /* UIButton+EnlargeTouchArea.h */; };
-		343FCF5920C52FF700ABC9AF /* UIView+FrameUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 343FCF5320C52FF700ABC9AF /* UIView+FrameUtility.h */; };
-		343FCF5B20C52FF700ABC9AF /* UILabel+AttachementText.h in Headers */ = {isa = PBXBuildFile; fileRef = 343FCF5520C52FF700ABC9AF /* UILabel+AttachementText.h */; };
-		343FCF8220C53C8800ABC9AF /* ZXAccessoryButton.h in Sources */ = {isa = PBXBuildFile; fileRef = 343232D820C12E5F00174762 /* ZXAccessoryButton.h */; };
+		343FCF5920C52FF700ABC9AF /* UIView+FrameUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 343FCF5320C52FF700ABC9AF /* UIView+FrameUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		343FCF5B20C52FF700ABC9AF /* UILabel+AttachementText.h in Headers */ = {isa = PBXBuildFile; fileRef = 343FCF5520C52FF700ABC9AF /* UILabel+AttachementText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		343FCF8320C53C8800ABC9AF /* ZXAccessoryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 343232D620C12E5E00174762 /* ZXAccessoryButton.m */; };
-		343FCF8420C53C8800ABC9AF /* ZXAccessoryTextField.h in Sources */ = {isa = PBXBuildFile; fileRef = 343232D920C12E5F00174762 /* ZXAccessoryTextField.h */; };
 		343FCF8520C53C8800ABC9AF /* ZXAccessoryTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 343232D720C12E5F00174762 /* ZXAccessoryTextField.m */; };
-		343FCF8620C53C8E00ABC9AF /* UIButton+EnlargeTouchArea.h in Sources */ = {isa = PBXBuildFile; fileRef = 343FCF5220C52FF700ABC9AF /* UIButton+EnlargeTouchArea.h */; };
 		343FCF8720C53C8E00ABC9AF /* UIButton+EnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 343FCF5420C52FF700ABC9AF /* UIButton+EnlargeTouchArea.m */; };
-		343FCF8820C53C8E00ABC9AF /* UILabel+AttachementText.h in Sources */ = {isa = PBXBuildFile; fileRef = 343FCF5520C52FF700ABC9AF /* UILabel+AttachementText.h */; };
 		343FCF8920C53C8E00ABC9AF /* UILabel+AttachementText.m in Sources */ = {isa = PBXBuildFile; fileRef = 343FCF5120C52FF700ABC9AF /* UILabel+AttachementText.m */; };
-		343FCF8A20C53C8E00ABC9AF /* UIView+FrameUtility.h in Sources */ = {isa = PBXBuildFile; fileRef = 343FCF5320C52FF700ABC9AF /* UIView+FrameUtility.h */; };
 		343FCF8B20C53C8E00ABC9AF /* UIView+FrameUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 343FCF5620C52FF700ABC9AF /* UIView+FrameUtility.m */; };
+		343FCF8C20C53EAB00ABC9AF /* ZXAccessoryButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 343232D820C12E5F00174762 /* ZXAccessoryButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		343FCF8D20C53EB400ABC9AF /* ZXAccessoryTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 343232D920C12E5F00174762 /* ZXAccessoryTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		343FCF8E20C53ECB00ABC9AF /* UIButton+EnlargeTouchArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 343FCF5220C52FF700ABC9AF /* UIButton+EnlargeTouchArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		343FCF9120C53F6100ABC9AF /* ZXMarsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2244B383201EFF070079BB9E /* ZXMarsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		343FCF9820C5440300ABC9AF /* ZXMarsKit.h in Sources */ = {isa = PBXBuildFile; fileRef = 2244B383201EFF070079BB9E /* ZXMarsKit.h */; };
+		343FCF9920C5440300ABC9AF /* ZXAccessoryButton.h in Sources */ = {isa = PBXBuildFile; fileRef = 343232D820C12E5F00174762 /* ZXAccessoryButton.h */; };
+		343FCF9A20C5440400ABC9AF /* ZXAccessoryTextField.h in Sources */ = {isa = PBXBuildFile; fileRef = 343232D920C12E5F00174762 /* ZXAccessoryTextField.h */; };
+		343FCF9B20C5440400ABC9AF /* UIButton+EnlargeTouchArea.h in Sources */ = {isa = PBXBuildFile; fileRef = 343FCF5220C52FF700ABC9AF /* UIButton+EnlargeTouchArea.h */; };
+		343FCF9C20C5440400ABC9AF /* UILabel+AttachementText.h in Sources */ = {isa = PBXBuildFile; fileRef = 343FCF5520C52FF700ABC9AF /* UILabel+AttachementText.h */; };
+		343FCF9D20C5440400ABC9AF /* UIView+FrameUtility.h in Sources */ = {isa = PBXBuildFile; fileRef = 343FCF5320C52FF700ABC9AF /* UIView+FrameUtility.h */; };
 		361B58CE2A28E03CA83A73617ED739F2 /* EXPMatchers+raise.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA78AD493C15517AB45ED930E51A1E0 /* EXPMatchers+raise.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3849993FDFE7642E4BEF1096B047FB86 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 42785F13EF84B082ACE2FE7CAE842881 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		39461DAB3DE2637F4AE2BA94F19DCF2B /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A617F1464A48980127A218AB18B898 /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -165,7 +168,6 @@
 		FC223395BCEE46EB920CECD38AFD4402 /* EXPMatchers+beInTheRangeOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 222B35F590250B97F30D1C37C402B693 /* EXPMatchers+beInTheRangeOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC6474103AA989EBD5368772037BE0BB /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABA02BD58E16D9841A495FD86DF6334 /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCDA06700D1989687F2471414453A57A /* SPTSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8175700E46E467915FC3D84336F6A3 /* SPTSpec.m */; };
-		FD2F65E424E82C612261363503A8B153 /* ZXMarsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D279D5BF49792AE105DBD2E7A7A3CCA /* ZXMarsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD39ACDEA6F0B6D6DBB730547CE18BA6 /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F63B0FF272D1EB750D82F3EADA2D2CA /* EXPExpect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF394D6FEA84206182301180AE4CB957 /* EXPMatchers+beGreaterThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C3D8B18F8E2A5FB67C1A251F1D7AA4 /* EXPMatchers+beGreaterThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
@@ -993,11 +995,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				343232E020C1312F00174762 /* ZXMarsKit.h in Headers */,
-				FD2F65E424E82C612261363503A8B153 /* ZXMarsKit-umbrella.h in Headers */,
+				343FCF9120C53F6100ABC9AF /* ZXMarsKit.h in Headers */,
+				343FCF8E20C53ECB00ABC9AF /* UIButton+EnlargeTouchArea.h in Headers */,
+				343FCF8D20C53EB400ABC9AF /* ZXAccessoryTextField.h in Headers */,
+				343FCF8C20C53EAB00ABC9AF /* ZXAccessoryButton.h in Headers */,
 				343FCF5B20C52FF700ABC9AF /* UILabel+AttachementText.h in Headers */,
 				343FCF5920C52FF700ABC9AF /* UIView+FrameUtility.h in Headers */,
-				343FCF5820C52FF700ABC9AF /* UIButton+EnlargeTouchArea.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1236,15 +1239,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				343FCF8620C53C8E00ABC9AF /* UIButton+EnlargeTouchArea.h in Sources */,
+				343FCF9820C5440300ABC9AF /* ZXMarsKit.h in Sources */,
+				343FCF9920C5440300ABC9AF /* ZXAccessoryButton.h in Sources */,
+				343FCF9A20C5440400ABC9AF /* ZXAccessoryTextField.h in Sources */,
+				343FCF9B20C5440400ABC9AF /* UIButton+EnlargeTouchArea.h in Sources */,
+				343FCF9C20C5440400ABC9AF /* UILabel+AttachementText.h in Sources */,
+				343FCF9D20C5440400ABC9AF /* UIView+FrameUtility.h in Sources */,
 				343FCF8720C53C8E00ABC9AF /* UIButton+EnlargeTouchArea.m in Sources */,
-				343FCF8820C53C8E00ABC9AF /* UILabel+AttachementText.h in Sources */,
 				343FCF8920C53C8E00ABC9AF /* UILabel+AttachementText.m in Sources */,
-				343FCF8A20C53C8E00ABC9AF /* UIView+FrameUtility.h in Sources */,
 				343FCF8B20C53C8E00ABC9AF /* UIView+FrameUtility.m in Sources */,
-				343FCF8220C53C8800ABC9AF /* ZXAccessoryButton.h in Sources */,
 				343FCF8320C53C8800ABC9AF /* ZXAccessoryButton.m in Sources */,
-				343FCF8420C53C8800ABC9AF /* ZXAccessoryTextField.h in Sources */,
 				343FCF8520C53C8800ABC9AF /* ZXAccessoryTextField.m in Sources */,
 				0B81A284D8D48A320B362661BE642D7E /* ZXMarsKit-dummy.m in Sources */,
 			);

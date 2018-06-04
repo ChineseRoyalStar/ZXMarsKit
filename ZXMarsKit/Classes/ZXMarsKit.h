@@ -11,6 +11,7 @@
 /** Category */
 #import "UIView+FrameUtility.h"
 #import "UILabel+AttachementText.h"
+#import "UIButton+EnlargeTouchArea.h"
 
 /** Custom */
 #import "ZXAccessoryButton.h"
